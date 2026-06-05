@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Load dataset
 # Download train.csv from Kaggle Titanic dataset and keep it in same folder
-df = pd.read_csv("train.csv")
+df = pd.read_csv("titanic.csv")
 
 # Show first rows
 print(df.head())
